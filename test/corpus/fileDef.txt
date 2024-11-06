@@ -1,0 +1,12 @@
+============
+Sprite
+============
+
+sprite Hello.
+
+-------------
+
+(source_file
+    def: (fileDef
+        type: (sprite)
+        name: (words)))

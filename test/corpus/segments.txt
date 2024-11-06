@@ -1,0 +1,25 @@
+=======================================
+Word Segments
+=======================================
+
+sprite Hello.
+
+block worda wordb wordc.
+
+---------------------------------------
+
+(source_file
+    def: (fileDef
+        (spriteDef
+            type: (sprite)
+            name: (words)))
+    decls: (decls
+        (decl
+            (block
+                (segments
+                    (segment
+                        (word))
+                    (segment
+                        (word))
+                    (segment
+                        (word)))))))
